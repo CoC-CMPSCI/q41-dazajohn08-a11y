@@ -38,7 +38,7 @@ int main()
     else if (choice == 3){
     cout << "Enter the base and height of the triangle: ";
     cin >> base >> height;
-    area = height * width * 0.5;
+    area = base * height * 0.5;
     cout << left << setprecision(2) << fixed;
     cout << "The area is " << area << endl;
     }
